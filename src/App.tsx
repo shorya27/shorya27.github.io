@@ -52,7 +52,7 @@ function App() {
           <div className="md:w-1/3">
             <div className="w-64 h-64 rounded-full overflow-hidden border-4 border-blue-400 shadow-lg shadow-blue-500/20 hover:scale-105 transition-transform duration-300">
               <img
-                src="./mypic.jpg"
+                src="https://i.postimg.cc/Jhshggcr/mypic.jpg"
                 alt="Profile"
                 className="w-full h-full object-cover"
               />
