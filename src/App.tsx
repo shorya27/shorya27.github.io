@@ -102,7 +102,7 @@ function App() {
           Blockchain Projects
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* STRATOS */}
           <div className="bg-gray-800/50 backdrop-blur rounded-xl p-8 transform hover:scale-[1.03] transition-all duration-300 shadow-xl">
             <div className="flex justify-between items-start mb-4">
@@ -148,6 +148,54 @@ function App() {
               </span>
               <span className="px-4 py-1 bg-blue-900/50 rounded-full text-sm hover:bg-blue-800/50 transition-colors">
                 AI/ML
+              </span>
+            </div>
+          </div>
+
+          {/* CCIP Liquidation Protector */}
+          <div className="bg-gray-800/50 backdrop-blur rounded-xl p-8 transform hover:scale-[1.03] transition-all duration-300 shadow-xl">
+            <div className="flex justify-between items-start mb-4">
+              <div>
+                <h3 className="text-2xl font-bold text-cyan-400">
+                  CCIP Liquidation Protector
+                </h3>
+                <p className="text-gray-300">
+                  Lead Developer | January 2024 – April 2024
+                </p>
+              </div>
+              <a
+                href="https://github.com/DSC-IITI/Cross-Chain-Liquidity-Protector"
+                className="text-cyan-400 hover:text-cyan-300 hover:rotate-12 transition-transform"
+              >
+                <ExternalLink size={20} />
+              </a>
+            </div>
+            <p className="mb-4 text-gray-200">
+              Developed a cross-chain solution to protect users from liquidation on lending protocols through Chainlink CCIP.
+            </p>
+            <ul className="list-disc list-inside space-y-2 text-gray-300">
+              <li className="hover:translate-x-2 transition-transform">
+                Built a system to pull liquidity from Arbitrum to Ethereum
+              </li>
+              <li className="hover:translate-x-2 transition-transform">
+                Integrated with Compound V2 and Aave V3 protocols
+              </li>
+              <li className="hover:translate-x-2 transition-transform">
+                Implemented automated position monitoring
+              </li>
+            </ul>
+            <div className="mt-4 flex flex-wrap gap-2">
+              <span className="px-4 py-1 bg-cyan-900/50 rounded-full text-sm hover:bg-cyan-800/50 transition-colors">
+                Chainlink CCIP
+              </span>
+              <span className="px-4 py-1 bg-cyan-900/50 rounded-full text-sm hover:bg-cyan-800/50 transition-colors">
+                Solidity
+              </span>
+              <span className="px-4 py-1 bg-cyan-900/50 rounded-full text-sm hover:bg-cyan-800/50 transition-colors">
+                Foundry
+              </span>
+              <span className="px-4 py-1 bg-cyan-900/50 rounded-full text-sm hover:bg-cyan-800/50 transition-colors">
+                DeFi
               </span>
             </div>
           </div>
@@ -202,6 +250,7 @@ function App() {
           </div>
         </div>
       </section>
+      
 
       {/* Machine Learning Projects */}
       <section className="container mx-auto px-4 py-16 animate-on-scroll">
