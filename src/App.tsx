@@ -160,7 +160,7 @@ function App() {
                   CCIP Liquidation Protector
                 </h3>
                 <p className="text-gray-300">
-                  Lead Developer | January 2024 – April 2024
+                  Project Developer | January 2024 – April 2024
                 </p>
               </div>
               <a
