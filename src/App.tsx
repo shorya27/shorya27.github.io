@@ -160,7 +160,7 @@ function App() {
                   CCIP Liquidation Protector
                 </h3>
                 <p className="text-gray-300">
-                  Project Developer | January 2024 – April 2024
+                  Project Developer | December 2024 – February 2025
                 </p>
               </div>
               <a
@@ -268,7 +268,7 @@ function App() {
                   Language Model Tool Integration
                 </h3>
                 <p className="text-gray-300">
-                  AI/ML Developer | Inter IIT DevRev
+                  AI/ML Developer | Inter IIT DevRev PS Solution
                 </p>
               </div>
               <a
